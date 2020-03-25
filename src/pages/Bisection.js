@@ -125,10 +125,9 @@ export default class Bisection extends Component {
     let rows = this.state.Arr.map(x => { return <DataRow key={x.count} data={x} /> });
 
     return (
-           <div className="columns has-background-black">
+           <div className="columns has-background-white">
                 <div className="column is-15 is-custom">
-                    <form id="F" className="box has-background-dark" 
-                    onSubmit={this.handleSubmit}>
+                    <form id="F" onSubmit={this.handleSubmit}>
                         <h3 className="title is-1 has-text-white"><strong>BisectionMethod</strong></h3>
                         <hr className="is-divider" />
                         <div className="field has-addons">
@@ -196,7 +195,7 @@ export default class Bisection extends Component {
                     {(this.state.submitted)
                         ? <div></div>
                         : <div><div className="box has-background-dark" id="T">
-                            <h4 className="title is-4 has-text-white">Table</h4>
+                            <h1 className="title is-1 has-text-white">Table</h1>
                             <hr className="is-divider" />
                             <table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth ">
                                 <thead>
@@ -216,7 +215,7 @@ export default class Bisection extends Component {
                             </table>
                         </div>
                             <div className="box has-background-dark" id="C">
-                                <h4 className="title is-4 has-text-white">Plotgraph</h4>
+                                <h1 className="title is-3 has-text-white">Plotgraph</h1>
                                 <hr className="is-divider" />
                                 <LineChart Data={this.state.Arr} />
                                 <div>
