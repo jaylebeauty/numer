@@ -185,7 +185,7 @@ class Lagrange extends Component{
                     <div>
                     {(this.state.showOutput)&&
                       <div id="O" className="box has-background-light">
-                          <h5 className="title is-1 has-text-dark"><strong>Output</strong></h5>
+                          <h5 className="title is-4 has-text-dark"><strong>Output</strong></h5>
                           <hr className="is-divider"/>
                           <div>
                               <Plot
@@ -201,7 +201,7 @@ class Lagrange extends Component{
                               />
                           </div>
                           <br/><br/>
-                          <h5 className="title is-2 has-text-dark"><strong>Divided Differences at {newX} is {Fx}</strong></h5>
+                          <h5 className="title is-5 has-text-dark"><strong>Divided Differences at {newX} is {Fx}</strong></h5>
                       </div>
                     }
                   </div>
