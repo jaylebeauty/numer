@@ -89,45 +89,45 @@ class FWOH2 extends Component {
                           <hr className="is-divider"/>
                           <div className="field has-addons">
                               <p className="control">
-                                <a className="button is-static is-meduim" href="#undefined" >
+                                <a className="button is-static is-medium" href="#undefined" >
                                     Equation :
                                 </a>
                               </p>
                               <p className="control">
-                                  <input className="input is-black is-meduim" name="e" type="text" 
+                                  <input className="input is-black is-medium" name="e" type="text" 
                                   style={{width:"80vh"}} value={this.state.e} onChange={this.handleChange} placeholder="Enter Equation" />
                               </p>
                           </div>
                           <div className="field has-addons">
                               <p className="control">
-                                <a className="button is-static is-meduim" href="#undefined" >
+                                <a className="button is-static is-medium" href="#undefined" >
                                     x :
                                 </a>
                               </p>
                               <p className="control">
-                                  <input className="input is-black is-meduim" name="x" type="number" 
+                                  <input className="input is-black is-medium" name="x" type="number" 
                                   style={{width:"80vh"}} step="any" value={this.state.x} onChange={this.handleChange} placeholder="Enter x"/>
                               </p>
                           </div>
                           <div className="field has-addons">
                               <p className="control">
-                                <a className="button is-static is-meduim" href="#undefined" >
+                                <a className="button is-static is-medium" href="#undefined" >
                                     h :
                                 </a>
                               </p>
                               <p className="control">
-                                  <input className="input is-black is-meduim" name="h" type="number" 
+                                  <input className="input is-black is-medium" name="h" type="number" 
                                   style={{width:"80vh"}} step="any" value={this.state.h} onChange={this.handleChange} placeholder="Enter h" />
                               </p>
                           </div>
                           <div className="field has-addons">
                               <p className="control">
-                                <a className="button is-static is-meduim" href="#undefined" >
+                                <a className="button is-static is-medium" href="#undefined" >
                                     Degree :
                                 </a>
                               </p>
                               <p className="control">
-                                  <input className="input is-black is-meduim" name="d" type="number" 
+                                  <input className="input is-black is-medium" name="d" type="number" 
                                   style={{width:"80vh"}} min="1" max="4" value={this.state.d} onChange={this.handleChange} placeholder="Enter Degree" />
                               </p>
                           </div><br/>
@@ -160,9 +160,9 @@ class FWOH2 extends Component {
                                   </div>
                               </div>
                               <div className="box has-background-dark" id="C">
-                                  <h1 className="title is-1 has-text-white">Output</h1>
+                                  <h5 className="title is-5 has-text-white">Output</h5>
                                   <hr className="is-divider"/>
-                                  <h2 className="title is-2 has-text-white"><strong>The Approximate is {result}</strong></h2><br/><br/>
+                                  <h5 className="title is-5 has-text-white"><strong>Result is {result}</strong></h2><br/><br/>
                               </div>
                           </div>
                       }
