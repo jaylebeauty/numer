@@ -136,7 +136,7 @@ class Lagrange extends Component{
                     <div className="column is-15 is-custom">
                     <h3 className="title is-1 has-text-danger"><strong>Lagrange Interpolating Polynomials</strong></h3>
                         <form id="N"  onSubmit={this.handleSubmit}>
-                        <strong className="title is-3 has-text-white">Enter Number of Points</strong>
+                        <strong className="title is-5 has-text-white">Enter Number of Points</strong>
                         <hr className="is-divider"/>
                         <div className="field has-addons">
                             <p className="control">
@@ -167,7 +167,7 @@ class Lagrange extends Component{
                           <div id="M" className="box has-background-light">
                               <hr className="is-divider"/>
                                   <div>
-                                      <strong className="title is-3 has-text-white">Enter Values of Data</strong>
+                                      <strong className="title is-5 has-text-white">Enter Values of Data</strong>
                                       <br/><br/>
                                       <div>{MatrixInput}</div>
                                   </div><br/><br/>
@@ -185,7 +185,7 @@ class Lagrange extends Component{
                     <div>
                     {(this.state.showOutput)&&
                       <div id="O" className="box has-background-light">
-                          <h5 className="title is-4 has-text-dark"><strong>Output</strong></h5>
+                          <h5 className="title is-5 has-text-dark"><strong>Output</strong></h5>
                           <hr className="is-divider"/>
                           <div>
                               <Plot
