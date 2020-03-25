@@ -133,12 +133,12 @@ export default class Bisection extends Component {
                         <hr className="is-divider" />
                         <div className="field has-addons">
                             <p className="control">
-                                <a className="button is-static is-meduim" href="#undefined" >
+                                <a className="button is-static is-medium" href="#undefined" >
                                     Equation :
                                 </a>
                             </p>
                             <p className="control">
-                                <input className="input is-primary is-meduim" 
+                                <input className="input is-primary is-medium" 
                                 name="E" 
                                 type="text" 
                                 style={{ width: "80vh" }} 
@@ -149,12 +149,12 @@ export default class Bisection extends Component {
                         </div>
                         <div className="field has-addons">
                             <p className="control">
-                                <a className="button is-static is-meduim" href="#undefined" >
+                                <a className="button is-static is-medium" href="#undefined" >
                                     Xl :
                                 </a>
                             </p>
                             <p className="control">
-                                <input className="input is-primary is-meduim" 
+                                <input className="input is-primary is-medium" 
                                 name="xl" 
                                 type="number" 
                                 style={{ width: "80vh" }} 
@@ -166,12 +166,12 @@ export default class Bisection extends Component {
                         </div>
                         <div className="field has-addons">
                             <p className="control">
-                                <a className="button is-static is-meduim" href="#undefined" >
+                                <a className="button is-static is-medium" href="#undefined" >
                                     Xr :
                                 </a>
                             </p>
                             <p className="control">
-                                <input className="input is-primary is-meduim" 
+                                <input className="input is-primary is-medium" 
                                 name="xr" 
                                 type="number" 
                                 style={{ width: "80vh" }} 
@@ -196,7 +196,7 @@ export default class Bisection extends Component {
                     {(this.state.submitted)
                         ? <div></div>
                         : <div><div className="box has-background-dark" id="T">
-                            <h1 className="title is-1 has-text-white">Table</h1>
+                            <h4 className="title is-4 has-text-white">Table</h4>
                             <hr className="is-divider" />
                             <table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth ">
                                 <thead>
@@ -216,7 +216,7 @@ export default class Bisection extends Component {
                             </table>
                         </div>
                             <div className="box has-background-dark" id="C">
-                                <h1 className="title is-1 has-text-white">Chart</h1>
+                                <h4 className="title is-4 has-text-white">Plotgraph</h4>
                                 <hr className="is-divider" />
                                 <LineChart Data={this.state.Arr} />
                                 <div>
