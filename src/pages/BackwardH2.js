@@ -144,7 +144,7 @@ class BackwardH2 extends Component {
                       {(this.state.showOutput)&&
                           <div>
                               <div className="box has-background-dark" id="T">
-                                  <h1 className="title is-1 has-text-white">Graph</h1>
+                                  <h1 className="title is-1 has-text-white">Plotgraph</h1>
                                   <hr className="is-divider"/>
                                   <div>
                                       <Plot
@@ -160,9 +160,9 @@ class BackwardH2 extends Component {
                                   </div>
                               </div>
                               <div className="box has-background-dark" id="C">
-                                  <h1 className="title is-1 has-text-white">Output</h1>
+            
                                   <hr className="is-divider"/>
-                                  <h2 className="title is-2 has-text-white"><strong>The Approximate is {result}</strong></h2><br/><br/>
+                                  <h2 className="title is-2 has-text-white"><strong>Result is{result}</strong></h2><br/><br/>
                               </div>
                           </div>
                       }
