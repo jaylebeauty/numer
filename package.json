@@ -12,7 +12,7 @@
     "integrate-simpson": "^1.0.4",
     "jquery": "^3.4.1",
     "line-chartjs": "0.0.1-alpha",
-    "mathjs": "^6.6.1",
+    "mathjs": "^7.5.1",
     "mathjs-simple-integral": "^0.1.1",
     "mysql": "^2.18.1",
     "plotly.js": "^1.52.3",
